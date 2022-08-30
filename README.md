@@ -1,5 +1,8 @@
 # CRYPTO FOR PALESTINE 
 
+## Original 
+> https://bscscan.com/address/0x666f5c788178acd7fa4661c52c5bee8a0b4e8b5e#code
+
 * Added ERC20, Ownable, SafeERC20
 * Added fallback function
 * Removed sell and transfer tax
