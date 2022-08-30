@@ -6,7 +6,7 @@ Removed sell and transfer tax
 
 ## How to test
 
-1. Clone replo
+1. Clone repo
 2. In the terminal run the command ```npm install```
 3. create a .env file based on .env.example
 4. Run the Test ```npx hardhat test```
