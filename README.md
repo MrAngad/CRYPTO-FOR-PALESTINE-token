@@ -1,8 +1,8 @@
 # CRYPTO FOR PALESTINE 
 
-Added ERC20, Ownable, SafeERC20
-Added fallback function
-Removed sell and transfer tax
+* Added ERC20, Ownable, SafeERC20
+* Added fallback function
+* Removed sell and transfer tax
 
 ## How to test
 
