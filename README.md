@@ -1,13 +1,14 @@
-# Sample Hardhat Project
+# CRYPTO FOR PALESTINE 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Added ERC20, Ownable, SafeERC20
+Added fallback function
+Removed sell and transfer tax
 
-Try running some of the following tasks:
+## How to test
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+1. Clone replo
+2. In the terminal run the command ```npm install```
+3. create a .env file based on .env.example
+4. Run the Test ```npx hardhat test```
+5. Deploy to Mainnet ```npx hardhat run ./scripts/deploy.js --network BSCMainnet```
+6. Verify contract (replace [address] with the address of deployed contract)  ```npx hardhat verify --network BSCMainnet [address]```
